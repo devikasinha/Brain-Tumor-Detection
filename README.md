@@ -1,4 +1,14 @@
-# Multi-Model Hyperparameter Tuning Pipeline
+Brain Tumor Detection using Deep Learning & Computer Vision
+
+This project focuses on the automated detection and classification of brain tumors from MRI scans to aid medical diagnostics. By leveraging deep learning models alongside computer vision techniques, the pipeline processes complex medical imagery to accurately identify tumor regions while minimizing false positives.
+
+Image Preprocessing & Noise Removal: Applies advanced image filtering, contrast adjustments, and spatial smoothing to clean raw MRI scans and enhance feature clarity before training.
+
+Deep Learning Architecture: Employs Convolutional Neural Networks (CNNs) for precise feature extraction and classification of MRI slices.
+
+High Performance: Achieves a 89% classification accuracy, demonstrating robust generalization across diverse scan samples.
+
+Diagnostic Support: Designed to assist healthcare professionals by streamlining the initial screening phase and speeding up image assessment.# Multi-Model Hyperparameter Tuning Pipeline
 
 A clean, modular Python implementation for hyperparameter optimization across ensemble and gradient boosted decision tree architectures using **5-Fold Cross-Validation** via Scikit-Learn's `GridSearchCV`.
 
